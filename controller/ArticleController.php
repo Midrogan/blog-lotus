@@ -255,7 +255,7 @@ class ArticleController extends BaseController
 			new DBDriver(DB::connect()),
 			new Validator()
 		);
-
+		// $tags = "";
 		$unsortedTags = $mTags->getAll();
 
 		for ($i = 0; $i < count($unsortedTags); $i++) {

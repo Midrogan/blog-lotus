@@ -9,6 +9,6 @@ class DB
 		// $dsn = sprintf('%s:host=%s;dbname=%s', 'mysql', 'localhost', 'IXI');
 		// return new \PDO($dsn, 'root', '');
 
-		return $db = new \PDO('mysql:host=localhost;dbname=lotusbd', 'root', 'root');
+		return $db = new \PDO('mysql:host=localhost;dbname=lotusbd', 'root', '');
 	}
 }

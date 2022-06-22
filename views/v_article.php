@@ -15,7 +15,7 @@
                 <img class="articles_img" src="<?= $articles['preview_img_articles']; ?>" alt="">
             </div>
 
-            <div class="articles_text"><?= $articles['preview_articles'] ?> </div>
+            <div class="articles_text"><?= $articles['preview_articles'] ?></div>
 
             <div class="articles_text"><?= $articles['content_articles'] ?> </div>
 

@@ -37,7 +37,7 @@
                 <div class="articles_button_box">
                     <a class="articles_button" href="<?= ROOT ?>article/<?= $article['id_articles']; ?>">Читать</a>
                     <a class="articles_button" href="<?= ROOT ?>article/edit/<?= $article['id_articles']; ?>">Редактировать</a>
-                    <a class="articles_button" href="<?= ROOT ?>article/delete/<?= $article['id_articles']; ?>">Удалить</a>
+                    <a class="articles_button_delete" href="<?= ROOT ?>article/delete/<?= $article['id_articles']; ?>">Удалить</a>
                 </div>
                 <div class="articles_actions">
                     <div class="articles_action">

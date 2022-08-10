@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+    Options +FollowSymLinks
+    Options -Indexes
+    RewriteEngine	on 
+    RewriteCond     %{SCRIPT_FILENAME}  !-f
+    RewriteCond $1 !^(index\.php|robots\.txt|img|css|js)
+	RewriteRule .* index.php?chpu=$0 [QSA]
+</IfModule>
+
+
+<FilesMatch "\.(php)$">
+	Deny from all
+</FilesMatch>
+
+<FilesMatch "index.(php)$">
+	Allow from all
+</FilesMatch>
